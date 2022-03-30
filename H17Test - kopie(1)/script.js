@@ -6,8 +6,9 @@ getBtnHomeGrey = addEventListener('click' , function(){
   
  /*close the menu*/
  var setContainerUlNone = document.querySelector('.mytoggle-Div');
+ console.log("close the menu: colour" , setContainerUlNone)
  setContainerUlNone.classList.toggle('mytoggle');
- console.log("close the menu: colour")
+ 
 
  /* give the body the color grey*/
    var getBody = document.querySelector('body');
