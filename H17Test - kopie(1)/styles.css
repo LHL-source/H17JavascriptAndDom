@@ -1,0 +1,21 @@
+
+/*.container-ul-none {
+  display: none;
+}
+.container-ul-block {
+  display: block;
+}*/
+
+
+
+.home-grey{
+    color: grey;
+};
+
+.mytoggle{
+
+  display:none;
+};
+
+.bold{ font-weight: bold}
+.kleurGrijs{background-color: grey;}
