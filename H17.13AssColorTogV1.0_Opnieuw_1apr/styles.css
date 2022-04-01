@@ -1,0 +1,15 @@
+ul {
+    width: 250px;
+    height:800 px;
+    border: 3px solid black;
+    background-color: pink;
+    padding: 20px;
+};
+
+li {
+width: 150px;
+height: 50px;
+border:3px solid black;
+background-color: aqua
+
+};
