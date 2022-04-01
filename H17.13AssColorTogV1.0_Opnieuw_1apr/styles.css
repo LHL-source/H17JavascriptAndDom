@@ -16,10 +16,17 @@ background-color: aqua;
 
 }
 
-.menuOpen{
-    display: block;
+.menuToggle{
+ display: none;
 }
 
-.menuClose{
+
+
+/*hieronder kladblok*/
+/*.menuOpen{
+    display: block;
+}*/
+
+/*.menuClose{
     display: none;
-}
+}*/
