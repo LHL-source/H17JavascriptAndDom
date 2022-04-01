@@ -1,0 +1,45 @@
+
+/*dit is de samen invoeg sheet*/
+/*let op verschil myToggle(zit in de index.html als classname en mytoggle is een inline classname css*/
+
+
+/*.kleurRood{background-color: red};*/
+.mytoggle-div{
+display:none;
+};
+.home-grey{
+  color: black;
+  /*cursor: pointer*/
+  };
+  
+.bold{ font-weight: bold};
+.kleurGrijs{background-color: grey};
+
+/*.kleurRood{background-color: red};*/
+
+
+
+
+.mytoggle{
+
+    display:none;
+   
+  };
+  
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
