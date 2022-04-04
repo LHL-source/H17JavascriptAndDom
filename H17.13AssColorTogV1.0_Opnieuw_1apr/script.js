@@ -3,7 +3,7 @@
  
 function menuFunction(){
     let menuKleur =document.querySelector('.menuKleur');
-    console.log("menuFunction = " +  menuKleur);
+    console.log("menuFunction = ",menuKleur);
     menuKleur.classList.toggle('visible');
 
 }
@@ -23,22 +23,22 @@ btnToggleNav.addEventListener('click', function() {
 /*functie: klik op button home-grey en body wordt grijs works ? y*/
 
 var getBtnHomeGrey = document.querySelector('.home-grey');
-console.log("getBtnHomeGrey : " + getBtnHomeGrey);
+console.log("getBtnHomeGrey : " ,getBtnHomeGrey);
 
 getBtnHomeGrey = addEventListener('click' , function(){
   
-        var getBody = document.getElementById('myLichaam');
-        console.log(" hallo body :" + getBody);
+        var getBody = document.querySelector('.myLichaam');
+        console.log(" hallo body :" ,getBody);
         getBody.classList.add('kleurGrijs');
-        console.log("getBody.classList = " + getBody.classList);
+        console.log("getBody.classList = " ,getBody.classList);
 
    /*close the menu*/
     menuFunction();
     
    
-   /* })/*addEventListener*/
+    })/*addEventListener
 
-}) ; /*getBtnHomeGrey*/   
+}); /*getBtnHomeGrey */ 
 
 
 /*button Red*/
