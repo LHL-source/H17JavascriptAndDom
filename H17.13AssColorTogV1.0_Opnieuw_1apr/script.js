@@ -6,10 +6,10 @@ function menuFunction(){
     console.log("menuFunction = ",menuKleur);
     menuKleur.classList.toggle('visible');
 
-}
+};
 
  /*stap 2 maak van menuKleur visible of invisible*/
-let btnToggleNav = document.querySelector('.btn-toggle-nav')
+let btnToggleNav = document.querySelector('.hamburger_icon')
 
 btnToggleNav.addEventListener('click', function() {
     menuFunction();
@@ -20,7 +20,7 @@ btnToggleNav.addEventListener('click', function() {
 
 
 
-/*functie: klik op button home-grey en body wordt grijs works ? y*/
+/*functie: klik op button home-grey en body wordt grijs works ? not yet*/
 
 var getBtnHomeGrey = document.querySelector('.home-grey');
 console.log("getBtnHomeGrey : " ,getBtnHomeGrey);
