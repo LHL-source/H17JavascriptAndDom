@@ -1,0 +1,58 @@
+       /*body*/
+       
+       .myLichaam {
+           background-color: grey;
+       }
+       /*.home-grey {
+           background-color: yellow;
+       }*/
+       /*ul*/
+       
+       .menuKleur {
+           /* width: 250px;*/
+           /* height: 800 px;*/
+           /* border: 3px solid black;*/
+           /* padding: 20px;*/
+           /* background-color: grey;*/
+           list-style-type: none;
+           display: none;
+       }
+       
+       li {
+           width: 150px;
+           height: 50px;
+           border: 1px solid grey;
+       }
+       
+       .visible {
+           display: block;
+       }
+       /*styling for button*/
+       
+       .home-grey {
+           color: black;
+           background-color: grey;
+       }
+       
+       .red {
+           color: black;
+           background-color: red;
+       }
+       /*.orange {
+           color: black;
+           background-color: orange;
+       }*/
+       /* .purple {
+           color: black;
+           background-color: purple;
+       }*/
+       /*.green {
+           color: black;
+           background-color: green;
+       }*/
+       /* .kleurGrijs {
+           background-color: grey;
+       }*/
+       /*.kleurRood {
+           background-color: red;
+       }*/
