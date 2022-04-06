@@ -1,21 +1,23 @@
 /* alleen hamburger zichtbaar op scherm menu-kleur niet via css display=none workd ? y*/
- /*stap 1 maak een function toggle*/
- 
-function menuFunction(){
-    let menuKleur =document.querySelector('.menuKleur');
-    console.log("menuFunction = ",menuKleur);
-    menuKleur.classList.toggle('visible');
+/*stap 1 maak een function toggle*/
 
-};
+function menuFunction() {
+    var getMenuKleur = document.querySelector('.menuKleur');
+    console.log("menuFunction = ", getMenuKleur.className);
+    getMenuKleur.classList.toggle('visible');
+    console.log(getMenuKleur.target);
 
- /*stap 2 maak van menuKleur visible of invisible*/
-let btnToggleNav = document.querySelector('.hamburger_icon')
+}
 
+/*stap 2 maak van menuKleur visible of invisible*/
+var btnToggleNav = document.querySelector('.hamburger_icon')
+    /*console.log('hamburgerMenu: ', hamburger_icon.className);*/
 btnToggleNav.addEventListener('click', function() {
+    console.log("hamburger_icon: " + btnToggleNav);
     menuFunction();
     console.log('hamburgerMenu/eventListener klik gelukt');
-   
-    })/*addEventListener*/
+
+}) /*addEventListener*/
 
 
 
@@ -23,51 +25,34 @@ btnToggleNav.addEventListener('click', function() {
 /*functie: klik op button home-grey en body wordt grijs works ? not yet*/
 
 var getBtnHomeGrey = document.querySelector('.home-grey');
-console.log("getBtnHomeGrey : " ,getBtnHomeGrey);
+console.log("getBtnHomeGrey : ", getBtnHomeGrey);
 
-getBtnHomeGrey = addEventListener('click' , function(){
-  
-        var getBody = document.querySelector('.myLichaam');
-        console.log(" hallo body :" ,getBody);
-        getBody.classList.add('kleurGrijs');
-        console.log("getBody.classList = " ,getBody.classList);
+getBtnHomeGrey = addEventListener('click', function() {
 
-   /*close the menu*/
-    menuFunction();
-    
-   
-    })/*addEventListener
+    var getBody = document.querySelector('.myLichaam');
+    console.log(" hallo body :", getBody);
+    getBody.classList.add('kleurGrijs');
+    console.log("getBody.classList = ", getBody.classList);
 
-}); /*getBtnHomeGrey */ 
+}); /*getBtnHomeGrey */
 
+/*klik op de button red en body wordt rood works ?*/
+var getBtnRed = document.querySelector('.red');
+console.log("getBtnRed : ", getBtnRed);
 
-/*button Red*/
-//var getBtnRed = document.querySelector('.red');
-//console.log("getBtnRed : " + getBtnRed);
+getBtnRed = addEventListener('click', function() {
 
-/* stap 2functie: klik op button:red en body wordt rood works ?*/
-     
-     
-    /* getBtnRed = addEventListener('click' , function(){
-       
-             var getBody = document.querySelector('body');
-             console.log(" hallo body :" + getBody);
-             getBody.classList.add('kleurRood');
-             console.log("getBody = "+ getBody.classList);
-     
-        /*close the menu*/
-        /* menuFunction();*/
-         
-        
-        /* })/*addEventListener*/
-     
-    /* });  */ /*getBtnHomeGrey*/   
-     
+    var getBody = document.querySelector('.myLichaam');
+    console.log(" hallo body :", getBody);
 
+    /*verwijder kleurGrijs*/
+    getBody.classList.remove('kleurGrijs');
+    console.log("getBody.classList = ", getBody.classList);
 
-/* hieronder kladblok*/
-    
+    /*voegtoe kleurRood*/
+    getBody.classList.add('kleurRood');
+    console.log("getBody.classList = ", getBody.classList);
 
 
 
- 
+}); /*getBtnRed */
