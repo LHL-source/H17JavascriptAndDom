@@ -1,0 +1,81 @@
+                                    /*body*/
+                                    
+                                    .myLichaam {
+                                        background-color: grey;
+                                    }
+                                    /*ul*/
+                                    
+                                    .menuKleur {
+                                        width: 220px;
+                                        height: 280px;
+                                        /*transition-timing-function: ease;*/
+                                        /*transition: width 2s;*/
+                                        transition: width 100s;
+                                        list-style-type: none;
+                                        transform: translateX(-220px);
+                                        display: none;
+                                    }
+                                    
+                                    li {
+                                        width: 150px;
+                                        /*150px */
+                                        height: 50px;
+                                        /*50px*/
+                                        border: 1px solid grey;
+                                    }
+                                    
+                                    .visible {
+                                        display: block;
+                                        transform: translateX(220px);
+                                        width: 220px;
+                                        height: 280px;
+                                    }
+                                    /*styling for button*/
+                                    
+                                    .home-grey {
+                                        color: black;
+                                        background-color: grey;
+                                    }
+                                    
+                                    .kleurGrijs {
+                                        background-color: grey;
+                                    }
+                                    
+                                    .red {
+                                        color: black;
+                                        background-color: red;
+                                    }
+                                    
+                                    .kleurRood {
+                                        background-color: red;
+                                    }
+                                    
+                                    .orange {
+                                        color: black;
+                                        background-color: orange;
+                                    }
+                                    
+                                    .kleurOranje {
+                                        background-color: orange;
+                                    }
+                                    
+                                    .purple {
+                                        color: black;
+                                        background-color: purple;
+                                    }
+                                    
+                                    .kleurPaars {
+                                        background-color: purple;
+                                    }
+                                    
+                                    .green {
+                                        color: black;
+                                        background-color: green;
+                                    }
+                                    
+                                    .kleurGroen {
+                                        background-color: green;
+                                    }
+                                    /* .kleurGrijs {
+           background-color: grey;
+       }*/
